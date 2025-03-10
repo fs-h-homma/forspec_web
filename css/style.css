@@ -34,9 +34,6 @@
 	width: 36px;
 	height: 36px;
 }
-footer {
-	padding-bottom: 5%;
-}
 .time-border {
    border-top: 3px solid #262626;
     border-right: 3px solid #262626;
@@ -105,40 +102,6 @@ header .g-navi {
 	min-height: 100%;
 }
 
-/* ====== PROCESS ====== */
-#sec5 .square {
-	width: 60px;
-	height: 60px;
-	background: #21386E;
-	color: #ffffff;
-	text-align: center;
-	font-size: 2.4rem;
-}
-#sec5 .arrow {
-	width: 60px;
-	height: 40px;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-top: 25px solid #333;
-}
-/* --------------------------------------------- */
-#sec6 .circle-q, #sec6 .circle-a {
-	width: 50px;
-	height: 50px;
-	font-size: 2.2rem;
-	border-radius: 50%;
-	text-align: center;
-}
-#sec6 .circle-q {
-	background: #21386E;
-	color: #ffffff;
-	padding-top: 2px;
-}
-#sec6 .circle-a {
-	background: #ffffff;
-	color: #21386E;
-	border: 3px solid #21386E;
-}
 .schedule-img {
     width: 75%;
 }
