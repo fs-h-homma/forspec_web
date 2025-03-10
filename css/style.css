@@ -2,6 +2,7 @@
 /*----------------------------
   共通
 -----------------------------*/
+@import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
 
 .h5 {
     line-height: 1.8rem;
@@ -223,3 +224,54 @@ form .border-top,
     }    
 }
 /* END */
+.thumbnail-slide img {
+	height: auto;
+	transition: transform .6s ease;/* ゆっくり変化させる */
+	width: 100%;
+}
+.thumbnail-slide img:hover {
+	transform: scale(1.4);/* 拡大 */
+}
+.area {
+	width: 80%;
+	margin: auto;
+	flex-wrap: wrap;
+	display: flex;
+  }
+   
+  .tab_class {
+	width: calc(100% / 3) ;;
+	height: 50px;
+	background-color: darkgrey;
+	border-width: 1px 1px 0px 1px;    /* 下以外の枠線を引く */
+	border-style: solid;              /* 枠線の種類：実線 */
+	border-color: black;              /* 枠線の色：黒色 */ 
+	border-radius: 0.75em 0.75em 0 0; /* 枠線の左上角と右上角だけを丸く */
+	line-height: 50px;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	float: left;
+	order: -1;
+  }
+   
+  input[name="tab_name"] {
+	display: none;
+  }
+   
+  input:checked + .tab_class {
+	background-color: cadetblue;
+	color: aliceblue;
+  }
+   
+  .content_class {
+	display: none;
+	width: 100%;
+  }
+   
+  input:checked + .tab_class + .content_class {
+	display: block;
+  }
+  .row-title {
+	width: 20%;
+  }
