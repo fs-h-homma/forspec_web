@@ -238,3 +238,17 @@ form .border-top,
   .row-title {
 	width: 20%;
   }
+	
+	#rule { background:#fff; padding:20px; }
+	#rule .contents_header { width:100%; margin:0 auto; background:#fff; }
+	#rule .contents_header h2 { font-size:18px; font-weight:bold; margin-bottom:25px; color:#727272; text-align:left; border-left:5px solid #666; padding-left:10px; padding-top:2px; line-height:1.4; }
+	#rule .contents_body { width:100%; margin:0 auto; background:#fff; }
+	#rule .contents_body__inner .date { text-align: right; } 
+	#rule .contents_body__inner h3 { font-size:18px; font-weight:bold; margin-bottom:20px; color:#727272; text-align:left; border-left:5px solid #666; padding-left:10px; padding-top:2px; line-height:1.4; }
+	#rule .contents_body__inner h4 { font-size:13px; font-weight:bold; }
+	#rule .contents_body__inner p { margin-bottom:20px; font-size:13px; } 
+	#rule .contents_body__inner p:last-child { margin-bottom:0; }
+	#rule .contents_body__inner ul { margin-bottom:20px; }
+	#rule .contents_body__inner ul li { font-size:13px; margin-bottom:10px; }
+	#rule .contents_body__inner ul li:last-child { margin-bottom:0; }
+	#rule .contents_body__inner .block { border:1px dashed #ccc; padding:20px; text-align: right; }
