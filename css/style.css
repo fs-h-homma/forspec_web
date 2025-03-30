@@ -11,6 +11,9 @@
     border-left-width: 3px !important;
     border-left-color: #262626 !important;
 }
+.sp {
+	display: none;
+}
 
 /* ====== カラー指定 ====== */
 .brand-color {
@@ -109,6 +112,30 @@ header .g-navi {
 /* 中デバイス（タブレット, 992px 未満）
 ==============================================*/
 @media screen and (max-width: 991.98px) {
+.display-3 {
+	font-size: 4rem;
+}
+.sp-btn {
+	margin: 0 10rem 0;
+}
+.h2 {
+	font-size: 1.8rem;
+}
+.row {
+	flex-direction: column;
+}
+.col-md-6 {
+	max-width: 100%;
+}
+.img-h {
+	max-height:500px
+}
+.pc {
+	display: none;
+}
+.sp {
+	display: block;
+}
 #glovalNavbar ul li {
 	border-left: none;
 }
@@ -186,6 +213,12 @@ header .g-navi {
 /* 小デバイス（横向きモバイル, 768px 未満）
 ==============================================*/
 @media screen and (max-width: 767.98px) {
+.row {
+	flex-direction: column;
+}
+.pc {
+	display: none;
+}
 .logo {
 	width: 80%;
 }
@@ -222,10 +255,16 @@ header .catch h2 {
 .schedule-img {
     width: 100%;
 }
+.pc {
+	display: none;
+}
 form .border-top,
     form .border-bottom {
         border: none !important;
     }    
+	.display-3 {
+		font-size: 2.5rem;
+	}
 }
 /* END */
 .thumbnail-slide img {
