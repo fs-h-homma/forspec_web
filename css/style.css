@@ -275,21 +275,18 @@ form .border-top,
 .thumbnail-slide img:hover {
 	transform: scale(1.4);/* 拡大 */
 }
+
 .area {
-	width: 80%;
+	width: 100%;
 	margin: auto;
 	flex-wrap: wrap;
 	display: flex;
-  }
-   
+}
   .tab_class {
 	width: calc(100% / 3) ;;
 	height: 50px;
-	background-color: darkgrey;
+	background-color: #F6F8FA;
 	border-width: 1px 1px 0px 1px;    /* 下以外の枠線を引く */
-	border-style: solid;              /* 枠線の種類：実線 */
-	border-color: black;              /* 枠線の色：黒色 */ 
-	border-radius: 0.75em 0.75em 0 0; /* 枠線の左上角と右上角だけを丸く */
 	line-height: 50px;
 	font-size: 15px;
 	text-align: center;
@@ -303,13 +300,15 @@ form .border-top,
   }
    
   input:checked + .tab_class {
-	background-color: cadetblue;
+	background-color: #21386E;
 	color: aliceblue;
-  }
+}
    
   .content_class {
 	display: none;
-	width: 100%;
+	width: 80%;
+	margin: auto;
+	flex-wrap: wrap;
   }
    
   input:checked + .tab_class + .content_class {
