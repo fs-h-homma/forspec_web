@@ -5,14 +5,17 @@
 @import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
 
 .h5 {
-    line-height: 1.8rem;
+  line-height: 1.8rem;
 }
 .border-w3 { 
-    border-left-width: 3px !important;
-    border-left-color: #262626 !important;
+  border-left-width: 3px !important;
+  border-left-color: #262626 !important;
 }
 .sp {
 	display: none;
+}
+.vh {
+	height: 100vh;
 }
 
 /* ====== カラー指定 ====== */
@@ -112,6 +115,12 @@ header .g-navi {
 /* 中デバイス（タブレット, 992px 未満）
 ==============================================*/
 @media screen and (max-width: 991.98px) {
+.vh {
+	height: 60vh;
+}
+body {
+	font-size: 1.3rem;
+}
 .display-3 {
 	font-size: 4rem;
 }
