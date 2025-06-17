@@ -46,6 +46,7 @@
 		display:flex
 	}
 } 
+
 @media screen and (min-width: 991.98px) {
 	.cover-main {
 		top: 50px;
