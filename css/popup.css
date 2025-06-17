@@ -35,13 +35,27 @@
   #overlay.show {
 	opacity: 1;
   }
-  .cover-main {
-	margin-bottom: 0;
-	width: 80%;
-	position: relative;; 
-	margin: auto;
-	display:flex
-}
+
+@media screen and (max-width: 991.98px) {
+	.cover-main {
+		top: 100px;
+		margin-bottom: 0;
+		width: 80%;
+		position: relative;
+		margin: auto;
+		display:flex
+	}
+} 
+@media screen and (min-width: 991.98px) {
+	.cover-main {
+		top: 50px;
+		margin-bottom: 0;
+		width: 40%;
+		position: relative;
+		margin: auto;
+		display:flex
+	}
+} 
   .cover-main img {
 	border: 3px solid #ffffff;
 	border-radius: 1rem;
