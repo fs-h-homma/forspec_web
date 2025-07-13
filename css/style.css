@@ -281,6 +281,11 @@ form .border-top,
 	transition: transform .6s ease;/* ゆっくり変化させる */
 	width: 100%;
 }
+.mainimg-slick img {
+	height: auto;
+	transition: transform .6s ease;/* ゆっくり変化させる */
+	width: 100%;
+}
 .thumbnail-slide img:hover {
 	transform: scale(1.4);/* 拡大 */
 }
