@@ -99,15 +99,16 @@ header .jumbotron-fluid {
 	min-height: 100%;
 }
 header .catch {
-	width: 90%;
+	width: 100%;
 	bottom: 20%;
-	left: 50%;
-	margin-left: -45%;
+	margin: 0 auto;
 }
 header .g-navi {
 	min-height: 100%;
 }
-
+.sp {
+	display: none;
+}
 .schedule-img {
     width: 75%;
 }
@@ -116,7 +117,7 @@ header .g-navi {
 ==============================================*/
 @media screen and (max-width: 991.98px) {
 .vh {
-	height: 60vh;
+	height: 50vh;
 }
 body {
 	font-size: 1.3rem;
@@ -124,9 +125,7 @@ body {
 .display-3 {
 	font-size: 4rem;
 }
-.sp-btn {
-	margin: 0 10rem 0;
-}
+
 .h2 {
 	font-size: 1.8rem;
 }
@@ -229,10 +228,10 @@ body {
 	display: none;
 }
 .logo {
-	width: 80%;
+	width: 30%;
 }
 .display-3 {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 }
 .align-bottom {
 	font-size: 90%;
@@ -252,14 +251,26 @@ body {
 /* 極小デバイス（縦向きモバイル, 576px 未満）
 ==============================================*/
 @media screen and (max-width: 575.98px) {
+.vh {
+	height: 60vh;
+}
+body {
+	font-size: 1.0rem;
+}
 header .catch {
-	bottom: 10%;
+	bottom: 1%;
 }
 header .catch .h1 {
-	font-size: 2rem;
+	font-size: 1rem;
 }
 header .catch h2 {
-	font-size: 1rem;
+	font-size: 0.8rem;
+}
+h3 {
+	font-size: 1.2rem;
+}
+.recruit {
+	font-size: 0.8rem;
 }
 .schedule-img {
     width: 100%;
@@ -272,7 +283,7 @@ form .border-top,
         border: none !important;
     }    
 	.display-3 {
-		font-size: 2.5rem;
+		font-size: 1.5rem;
 	}
 }
 /* END */
