@@ -53,6 +53,10 @@
 	height: 36px;
 }
 
+.slick-slider {
+	padding-inline-start: 0px;
+}
+
 .time-border {
 	border-top: 3px solid #262626;
 	border-right: 3px solid #262626;
@@ -265,7 +269,7 @@ body {
 	font-size: 90%;
 }
 .footer-logo {
-	width: 80%;
+	width: 40%;
 }
 .navbar-nav .border-left {
 	border-left: none !important;
@@ -362,8 +366,8 @@ input[name="tab_name"] {
 input:checked+.tab_class {
 	background-color: #21386E;
 	color: aliceblue;
-	border-width: 5px;
-	border-color: red;
+	border-width: 3px;
+	border-color: orange;
 	border-style: solid;
 }
 
